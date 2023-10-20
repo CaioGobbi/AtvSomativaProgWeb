@@ -38,3 +38,7 @@ body {
     text-decoration: none;
     color: inherit;
 }
+
+.button-nav:active {
+    background-color: #2980b9; /* Define a cor de fundo quando o botão é clicado */
+  }

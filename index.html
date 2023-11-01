@@ -4,7 +4,7 @@
     <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script type = "script.js" src = "script.js"></script>
+    <script src="script.js"></script>
     <title>Somativa 1</title>
 </head>
 <body>
@@ -14,11 +14,13 @@
     <div class="pantufa"> <!--ESTA DIV PERTENCE AO PANTUFA!!!!-->
         <h1> CUBO MAGICO</h1>
     </div>
+    
     <div class="caio">
-        <audio src="audios/ASSOBIO DO WHATSAPP ESTOURADO.m4a"></audio>
         <h1> API WHATSAPP </h1>
-        <img src="imagens/b82c9e63765fdd8a96b618e15db2c10f.jpg" alt="fufufifuifu" height="200px" width="500px" onclick="addEventListener('click', audio.play)">
-        
+        <button class = "botao-macaco-zap">
+            <img id = "botao-zap" src="imagens/b82c9e63765fdd8a96b618e15db2c10f.jpg" alt="fufufifuifu" height="200px" width="500px" onclick="playAudio()">
+            <audio id = 'audio' src="audios/ASSOBIO DO WHATSAPP ESTOURADO.m4a"></audio>
+        </button>        
 
     </div>
     

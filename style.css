@@ -1,30 +1,4 @@
-h1, h2 {
-    text-align: center;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
-
-body {
-  background-color: #87f1f1;
-}
-
-h3 {
-    text-align: center;
-}
-.caio {
-    text-align: center;
-}
-.pantufa {
-    font-family: "Comic Sans MS";
-}
-
-figure.pantufa {
-    text-align: center;
-}
-
-
-/* ===BORDA DA IMAGEM LUIS===*/
-
-figure {
+figure.luis {
     border: thin #a5247a solid;
     display: flex;
     flex-flow: column;
@@ -33,12 +7,12 @@ figure {
     margin: auto;
   }
   
-  img.pantufa {
+  img.luis {
     max-width: 500px;
     max-height: 250px;
   }
   
-  figcaption {
+  figcaption.luis {
     background-color: #5c1374;
     color: #fff;
     font: italic smaller sans-serif;
@@ -46,11 +20,11 @@ figure {
     text-align: center;
   }
 
-  button.b1 {
+  botao.b1 {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
   }
 
-  button.b1:hover {
+  botao.b1:hover {
     box-shadow: 0 12px 16px 0 rgba(209, 43, 43, 0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
   }
 
@@ -59,13 +33,13 @@ figure {
     background-color:#ffcc8e;
   }
   
-  .button{
+  .botao{
     position:relative;
     display:inline-block;
     margin:20px;
   }
   
-  .button a{
+  .botao a{
     color:white;
     font-family:Helvetica, sans-serif;
     font-weight:bold;
@@ -75,7 +49,7 @@ figure {
     background-color:#FFA12B;
     display:block;
     position:relative;
-    padding:20px 40px;
+    padding:10px 10px;
     
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
     text-shadow: 0px 1px 0px #000;
@@ -90,7 +64,7 @@ figure {
     border-radius: 5px;
   }
   
-  .button a:active{
+  .botao a:active{
     top:10px;
     background-color:#F78900;
     
@@ -99,7 +73,7 @@ figure {
     box-shadow:inset 0 1px 0 #FFE5C4, inset 0 -3px 0 #915100;
   }
   
-  .button:after{
+  .botao:after{
     content:"";
     height:100%;
     width:100%;
@@ -113,3 +87,7 @@ figure {
     -moz-border-radius: 5px;
     border-radius: 5px;
   }
+
+figure.hardware img {
+  display: inline-block;
+}

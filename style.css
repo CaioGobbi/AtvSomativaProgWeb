@@ -3,19 +3,20 @@ figure.luis {
     display: flex;
     flex-flow: column;
     padding: 5px;
-    max-width: 500px;
+    max-width: 800px;
     margin: auto;
   }
   
   img.luis {
-    max-width: 500px;
-    max-height: 250px;
+    max-width: 800px;
+    max-height: 400px;
   }
   
   figcaption.luis {
     background-color: #5c1374;
     color: #fff;
     font: italic smaller sans-serif;
+    font-size: x-large;
     padding: 3px;
     text-align: center;
   }
@@ -90,4 +91,60 @@ figure.luis {
 
 figure.hardware img {
   display: inline-block;
+}
+
+p.titulo {
+  font-size: 500%;
+}
+
+/* alinhamento imagens badminton */
+.imagem-badminton {
+  display: flex;
+  justify-content: center; /* Alinha horizontalmente as imagens e legendas */
+  align-items: flex-start; /* Alinha as imagens no topo do container */
+  flex-wrap: wrap; /* Quebra para a proxima linha quando o espaço não for suficiente*/
+}
+
+.img-bad1, .img-bad2, .img-bad3 {
+  text-align: center; /* Alinha o conteúdo (imagem e legenda) ao centro */
+  margin: 10px; /* Espaço entre as imagens e legendas */
+}
+
+/* alinhamento imagens filosofia */
+.imagem-filosofia {
+  display: flex;
+  justify-content: center; /* Alinha horizontalmente as imagens e legendas */
+  align-items: flex-start; /* Alinha as imagens no topo do container */
+  flex-wrap: wrap; /* Quebra para a proxima linha quando o espaço não for suficiente */
+}
+
+.img-filo1, .img-filo2, .img-filo3 {
+  text-align: center; /* Alinha o conteúdo (imagem e legenda) ao centro */
+  margin: 10px; /* Espaço entre as imagens e legendas */
+}
+
+/* alinhamento imagens naruto */
+.imagem-naruto {
+  display: flex;
+  justify-content: center; /* Alinha horizontalmente as imagens e legendas */
+  align-items: flex-start; /* Alinha as imagens no topo do container */
+  flex-wrap: wrap; /* Quebra para a proxima linha quando o espaço não for suficiente */
+}
+
+.img-nar1, .img-nar2 {
+  text-align: center; /* Alinha o conteúdo (imagem e legenda) ao centro */
+  margin: 10px; /* Espaço entre as imagens e legendas */
+}
+
+/* alinhamento hardware */
+.imagem-hardware {
+  display: flex;
+  justify-content: center; /* Alinha horizontalmente as imagens e legendas */
+  align-items: flex-start; /* Alinha as imagens no topo do container */
+  flex-wrap: wrap; /* Quebra para a proxima linha quando o espaço não for suficiente */
+}
+
+.img-hard1, .img-hard2, .img-hard3 {
+  text-align: center; /* Alinha o conteúdo (imagem e legenda) ao centro */
+  margin: 10px; /* Espaço entre as imagens e legendas */
 }

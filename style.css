@@ -148,3 +148,12 @@ p.titulo {
   text-align: center; /* Alinha o conteúdo (imagem e legenda) ao centro */
   margin: 10px; /* Espaço entre as imagens e legendas */
 }
+
+.botao-caio{
+  display: flex;
+  justify-content: center;
+}
+
+.temas-caio{
+  font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: x-large;
+}
